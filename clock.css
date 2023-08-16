@@ -1,0 +1,29 @@
+*{
+    margin: 7pt;
+    padding: 5pt;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.clock{
+    width: 190px;
+    height: 200px;
+    
+}
+#face{
+    stroke: black;
+    stroke-width: 2px;
+    fill: antiquewhite;
+}
+#hourH, #minuteH, #secondH, #secondT{
+    stroke: black;
+    stroke-linecap: round;
+}
+#hourH{
+    stroke-width: 3px;
+}
+#minuteH{
+    stroke-width: 2px;
+}
+#secondH{
+    stroke-width: 1px;
+}

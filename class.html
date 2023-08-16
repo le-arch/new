@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid</title>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+    <div class="w3-bar w3-light-blue"> 
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">about</a>
+        <a href="#" class="w3-bar-item w3-button">contact</a>
+        <div class="w3-dropdown-click">
+         <button onclick="myFunction()" class="w3-button"><menu type="toolbar">menu</menu></button>
+         <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="#" class="w3-bar-item w3-button">link1</a>
+            <a href="#" class="w3-bar-item w3-button">link2</a>
+            <a href="#" class="w3-bar-item w3-button">link3</a>
+    </div>
+    <header><h1>begin</h1>
+       <button>begin your adventure</button>
+    </header>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("Demo");
+          if (x.className.indexOf("w3-show") == -1) { 
+            x.className += " w3-show";
+          } else {
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+</body>
+</html>

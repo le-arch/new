@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures App</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <h1>Picture App</h1>
+    <section>
+        <h2>Pictures</h2>
+        <!--stuff: add link to pictures-->
+        <p>See more <a href="#">pictures</a>
+        in our art gallery</p>
+        <a href="#"><img src="197.jpg" alt="photo"></a>
+    </section>
+    <section>
+        <h2>Drawing list</h2>
+        <h3>Materials to have:</h3>
+        <ul>
+            <li>pencilset(black and colour pencils)</li>
+            <li>stylus and digital sketchpad</li>
+            <li>sketchbook(A4)</li>
+        </ul>
+        <figure>
+            <img src="199.jpg" alt="photo">
+            <figcaption>Painting of princess</figcaption>
+        </figure>
+        <h3>Top art styles to use</h3>
+        <ol>
+            <li>sketching</li>
+            <li>shading</li>
+            <li>highlighting</li>
+            <li>graphics</li>
+        </ol> 
+        <figure>
+            <img src="215.jpg" alt="photo">
+            <figcaption>colour <strong> pencil drawing</strong> of girl</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h2>Art form</h2>
+        <form action="submit-picture-app">
+            <fieldset>
+                <legend>Do you love drawing?</legend>
+                <label><input type="radio" name="yes-no" id="yes" value="yes"> Yes</label>
+                <label><input type="radio" name="yes-no" id="no" value="no"> No</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your level of drawing?</legend>
+                <input type="checkbox" id="beginner" name="level" value="beginner" checked> <label for="beginner">Beginner</label>
+                <input type="checkbox" id="intermediate" name="level" value="intermediate" > <label for="intermediate">Intermediate</label>
+                <input type="checkbox" id="expert" name="level" value="expert"> <label for="expert">Expert</label>
+            </fieldset>
+            <input type="text" placeholder="pictures" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer><p>no copyright <a href="#">Picture app</a></p></footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+h1{
+    color: rgb(170, 111, 28);
+    text-align: center;
+    text-decoration: double;
+    font: normal cursive;
+}
+h2{
+    color: rgb(92, 64, 30);
+    text-align: center;
+    text-decoration: dotted;
+    font: normal oblique;
+}
+h3{
+    color: rgb(114, 71, 6);
+    text-align: center;
+    text-decoration: dashed;
+    font: normal italic;
+}
+section{
+    background-color: antiquewhite;
+}
+body{
+    background-color: aqua;
+}
+a{
+    text-decoration: dashed;
+}
+a:hover{
+    text-decoration-color: blueviolet;
+    text-decoration: underline;
+}
+img{
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    float: center;
+}
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: lower-roman;
+}form{
+    background-color: rgb(176, 122, 226);
+}
+button{
+    border-radius: 1px;
+    background-color: rgb(49, 125, 224);
+    color: rgb(204, 24, 24);
+}
+input {
+    background-color: rgb(236, 212, 175);
+}
+footer{
+    background-color: grey;
+    border: 100px;
+}

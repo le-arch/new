@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(177, 42, 177);
+    width: 800px;
+    
+}
+section{
+    background-color: rgb(247, 247, 209);
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 400px; 
+    border-radius: 10px; 
+    top: 50px; 
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 6%;
+    margin-right: 15%;
+}
+form{
+    float: right;
+}
+button{
+    background-color: rgb(147, 206, 59);
+    width: 90%;
+    border-radius: 17px;
+    color: rgb(209, 238, 228);
+    align-self: center;
+    cursor: pointer;
+    font-size: 20pt;
+    
+}
+input{
+    width: 90%;
+    border-radius: 15px;
+    font-size: 11.8pt;
+    
+}
+input:focus{
+    background-color: gray;
+    border: 2px round #554;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 144, 150);
+    font-size: larger;
+}
+a:hover{
+    text-decoration: underline;
+}

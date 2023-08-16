@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    background-color: aqua;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+body{
+    background-image: url(large-cake.jpg);
+    font-family: cursive;
+    padding: 30px;
+}
+h2{
+    font-size: 30px;
+}
+.text1{
+    font-style: normal;
+}
+h1,h2,p{
+    text-align: center;
+}
+.sign{
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.menu{
+    width: 80%;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+    max-width: 510px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 60px;
+}
+hr{
+    height: 2px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+.meal p{
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 19px;
+}
+.meal-one, .meal-two{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.login{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+    max-width: 500px;
+}
+form{
+    background-color: blanchedalmond;
+    font-style: oblique;
+}
+label{
+    text-align: center;
+    font-style: bold;
+    font-size: medium;
+    word-spacing: 3%;
+}
+footer{
+    font-size: 20px;
+}
+.place{
+    margin-bottom: 5px;
+    color: rgb(235, 19, 109);
+    font-size: 30px;
+    font-style: oblique;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: burlywood;
+}
+a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
